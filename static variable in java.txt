@@ -1,0 +1,35 @@
+class mobile
+{
+    String Brand;
+    int price;
+   static  String name;
+
+        public void show()
+        {
+            System.out.println(Brand+":"+price+":"+name);
+        }
+    
+    
+}
+public class Main
+{
+public static void main (String[] args) 
+    {
+        mobile obj1 =new mobile();
+        obj1.Brand = "apple";
+        obj1.price =1700;
+        obj1.name = "smart phone";
+        
+        mobile obj2 =new mobile();
+        obj2.Brand = "samsung";
+        obj2.price =2000;
+        obj2.name = "smart phone";
+        
+         obj1.name = "phone";
+       
+        obj1.show();
+        obj2.show();
+    }
+        
+        
+}
